@@ -1,16 +1,20 @@
-# Claim Check
+# Muse Fact Check
 
-A Fourth Take Studio project for the Meta AI Developer Hackathon 2026.
+A Fourth Take project for the Meta AI Developer Hackathon 2026.
 
-Claim Check is being built to help writers review factual claims against their cited sources using Muse Spark. The planned workflow presents findings with supporting source passages for the writer to review.
+Muse Fact Check is being built to help a reader check factual claims in their own share comment against a story’s cited sources using Muse Spark. The reader can review the findings before sharing the story to Facebook.
 
 ## Project status
 
 Development is in progress. This repository currently contains the project overview.
 
+## Live hackathon sprint
+
+[Follow the Muse Fact Check sprint](https://github.com/Slate-HQ-Ltd/muse-fact-check/issues/1) for public milestone updates and Meta integration commits as they land.
+
 ## Hackathon contribution
 
-Fourth Take Studio already had claim and source records, a review interface, and automated claim extraction and checking before the event. This project focuses on a dedicated Muse Spark workflow and its interface and evaluation additions.
+Fourth Take already has a share editor and a source-aware publishing workflow. This sprint adds a Muse Spark check for reader comments, a source-grounded findings view, and a Facebook sharing handoff.
 
 ## Team
 
