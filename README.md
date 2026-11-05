@@ -18,7 +18,7 @@ The public `main` branch currently contains `README.md`, this project overview. 
 
 ## Hackathon contribution
 
-Before the hackathon, Fourth Take already had a share editor and a source-aware publishing workflow. Fourth Take Studio also had claim and source records, automated checking, and a review interface.
+Before the hackathon, Fourth Take had a web share editor and iPhone ShareStudio. Studio also had claim and source records with a separate automated claim workflow. The dedicated Claim Check function and panel were built during the hackathon.
 
 This sprint is building a Muse Spark check for a reader’s share comment against a story’s cited sources, a source-grounded findings view, and a Facebook sharing handoff. The new Meta integration files will be identified here as they are published.
 
