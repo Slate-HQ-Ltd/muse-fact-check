@@ -6,7 +6,11 @@ Muse Fact Check is being built to help a reader check factual claims in their ow
 
 ## Project status
 
-Development is in progress. This repository currently contains the project overview.
+Development is in progress. A minimal Muse Wonder CLI request to the Meta Model API returned `READY`; the reader-comment feature is still being integrated.
+
+## Public repository contents
+
+The public `main` branch currently contains `README.md`, this project overview. Setup and test commands will be added with the Meta integration files they apply to.
 
 ## Live hackathon sprint
 
@@ -14,10 +18,12 @@ Development is in progress. This repository currently contains the project overv
 
 ## Hackathon contribution
 
-Fourth Take already has a share editor and a source-aware publishing workflow. This sprint adds a Muse Spark check for reader comments, a source-grounded findings view, and a Facebook sharing handoff.
+Before the hackathon, Fourth Take already had a share editor and a source-aware publishing workflow. Fourth Take Studio also had claim and source records, automated checking, and a review interface.
 
-## Team
+This sprint is building a Muse Spark check for a reader’s share comment against a story’s cited sources, a source-grounded findings view, and a Facebook sharing handoff. The new Meta integration files will be identified here as they are published.
 
-Fourth Take, by Slate HQ Ltd.
+## Contributor
+
+Mo Hoosen, Slate HQ Ltd. Fourth Take is a Slate HQ Ltd project.
 
 Copyright © 2026 Slate HQ Ltd. All rights reserved and asserted. Mo Hoosen retains his moral rights and rights of authorship, which are expressly asserted.
