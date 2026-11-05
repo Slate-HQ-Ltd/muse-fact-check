@@ -6,11 +6,26 @@ Muse Fact Check is being built to help a reader check factual claims in their ow
 
 ## Project status
 
-Development is in progress. A minimal Muse Wonder CLI request to the Meta Model API returned `READY`; the reader-comment feature is still being integrated.
+Development is in progress. The Muse Spark contract, Model API transport, and focused tests are now published here. A minimal Muse Wonder CLI request to the Meta Model API returned `READY`; the reader-comment feature is still being integrated.
 
 ## Public repository contents
 
-The public `main` branch currently contains `README.md`, this project overview. Setup and test commands will be added with the Meta integration files they apply to.
+The public `main` branch contains:
+
+- `README.md`: project overview and progress links.
+- `supabase/functions/fourth-take-share-check/contracts.ts`: the source-grounded findings contract.
+- `supabase/functions/fourth-take-share-check/model.ts`: the Muse Spark Model API transport.
+- `supabase/functions/fourth-take-share-check/model.test.ts`: focused transport and contract tests.
+
+## Run the tests
+
+With Deno installed, run:
+
+```sh
+deno test supabase/functions/fourth-take-share-check/model.test.ts
+```
+
+The three focused tests pass on the published source.
 
 ## Live hackathon sprint
 
@@ -20,7 +35,7 @@ The public `main` branch currently contains `README.md`, this project overview. 
 
 Before the hackathon, Fourth Take had a web share editor and iPhone ShareStudio. Studio also had claim and source records with a separate automated claim workflow. The dedicated Claim Check function and panel were built during the hackathon.
 
-This sprint is building a Muse Spark check for a reader’s share comment against a story’s cited sources, a source-grounded findings view, and a Facebook sharing handoff. The new Meta integration files will be identified here as they are published.
+This sprint is building a Muse Spark check for a reader’s share comment against a story’s cited sources, a source-grounded findings view, and a Facebook sharing handoff.
 
 ## Contributor
 
