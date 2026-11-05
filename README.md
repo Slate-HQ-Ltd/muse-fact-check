@@ -10,7 +10,7 @@ Development is in progress. This repository currently contains the project overv
 
 ## Live hackathon sprint
 
-[Follow the Muse Fact Check sprint](https://github.com/Slate-HQ-Ltd/muse-fact-check/issues/1) for public milestone updates and Meta integration commits as they land.
+[Follow the Muse Fact Check sprint](https://github.com/Slate-HQ-Ltd/muse-fact-check/discussions/2) for an update on every public repository commit.
 
 ## Hackathon contribution
 
